@@ -470,8 +470,10 @@ body {
     .nav { padding: 24px 40px; }
     .nav.sticky { padding: 16px 40px; }
     #home { grid-template-columns: 1fr; min-height: auto; }
-    .hero-image-side { height: 55vw; max-height: 480px; }
-    .hero-image-overlay { background: linear-gradient(to top, var(--cream) 0%, transparent 60%); }
+.hero-image-side {
+    height: 60vh;
+    max-height: none;
+}    .hero-image-overlay { background: linear-gradient(to top, var(--cream) 0%, transparent 60%); }
     .hero-text-side { padding: 60px 40px 80px; }
     #about { grid-template-columns: 1fr; gap: 50px; padding: 90px 40px; }
     .about-left { position: static; }
